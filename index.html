@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="funcationality">
+<button>DOWNLOAD</button>
+<button id="edit">EDIT</button>
+<button id="dlt">DLETE</button>
+    </div>
+
+<div id="myid">
+
+
+    <div class="main" id="formDiv">
+      <form id="form">
+        <h1 class="heading">CREATE RESUME:</h1>
+        <div class="aboutdiv">
+          <div>
+            <p class="p1">ABOUT</p>
+          </div>
+          <div class="line"></div>
+          <div class="grid">
+            <div>ENTER NAME:<input type="text" placeholder="ENTER YOUR FULL NAME " class="input" required id="name">
+            </div>
+
+
+            <div>ENTER PROFESSION:<input type="text" placeholder="ENTER YOUR PROFESSION" required 
+                id="profession" class="input"></div>
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+        <div class="aboutdiv">
+          <div>
+            <p class="p1">SUMMARY</p>
+          </div>
+          <div class="line"></div>
+          <div class="grid">
+            <div>ENTER ABOUT PROFESSION<input type="text" required placeholder="ENTER ABOUT PROFESSION " class="sumary"
+                id="abtpro"></div>
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+        <div class="aboutdiv">
+          <div>
+            <p class="p1">CONTACT</p>
+          </div>
+          <div class="line"></div>
+          <div class="grid">
+            <div>ENTER PHONE NUMBER<input type="number" required placeholder=" CELL PHONE NUMBER" class="input"
+                id="number"></div>
+            <div>ENTER EMAIL ADDRESS<input type="email" required placeholder="ENTER YOUR EMALE " class="input"
+                id="emale"></div>
+            <div>ENTER COUNTRY<input type="text" required placeholder="ENTER COUNTRY" class="input" id="country"></div>
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+        <div class="aboutdiv">
+          <div>
+            <p class="p1">SKILLS</p>
+          </div>
+          <div class="line"></div>
+          <div class="grid">
+            <div> <input type="text" required placeholder="  ENTER SKILL 1" class="input" id="skillone"></div>
+            <div> <input type="text" required placeholder="  ENTER SKILL 2" class="input" id="skilltwo"></div>
+            <div> <input type="text" required placeholder="  ENTER SKILL 3" class="input" id="skillthree"></div>
+            <div> <input type="text" required placeholder="  ENTER SKILL 4" class="input" id="skillfour"></div>
+            <div> STARTING DATE: <input type="date" required placeholder="ENTER STARTING DATE" class="input" id="sd">
+            </div>
+            <div class="one"> ENDING DATE: <input type="date" required placeholder="ENTER ENDING DATE" class="input"
+                id="ed"></div>
+
+
+          </div>
+
+
+
+
+        </div>
+
+        <div class="aboutdiv">
+          <div>
+            <p class="p1">PROFESSIONAL DETAILS</p>
+          </div>
+          <div class="line"></div>
+          <div class="grid">
+            <div>ENTER ABOUT SKILLONE<input type="text" required placeholder="ENTER ABOUT PROFESSION " class="sumary"
+                id="sdone"></div>
+
+            <div>ENTER ABOUT SKILLTWO<input type="text" required placeholder="ENTER ABOUT PROFESSION " class="sumary"
+                id="sdtwo"></div>
+            <div>ENTER ABOUT SKILLTHREE<input type="text" required placeholder="ENTER ABOUT PROFESSION " class="sumary"
+                id="sdthree"></div>
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+        <div class="aboutdiv">
+          <div>
+            <p class="p1">ACHIVEMENTS</p>
+          </div>
+          <div class="line"></div>
+          <div class="grid">
+            <div>ACHIVEMENTS FROM SKILLS<input type="text" required placeholder="WRITE HERE" class="sumary"
+                id="achione"></div>
+
+            <div>OTHERS ACHIVEMENTS<input type="text" required placeholder="WRITE HERE " class="sumary" id="achitwo">
+            </div>
+            <div> OTHERS ACHIVEMENTS<input type="text" required placeholder="WRITE HERE" class="sumary" id="achithree">
+            </div>
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+        <div class="aboutdiv">
+          <div>
+            <p class="p1">PASSIONS</p>
+          </div>
+          <div class="line"></div>
+          <div class="grid">
+            <div>YOUR PASSIONS <input type="text" required placeholder="YOUR PASSIONS" class="sumary" id="passion">
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+        <div class="aboutdiv">
+          <div>
+            <p class="p1">SKILLS</p>
+            
+            
+          </div>
+          <div class="line"></div>
+          <div class="grid">
+            <div>WRITE ABOUIT SKILL<input type="text" required placeholder="WRITE ABOUT SKILLS" class="sumary"
+                id="skill"></div>
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+        <div class="aboutdiv">
+          <div>
+            <p class="p1">DATA</p>
+          </div>
+          <div class="line"></div>
+          <div class="grid">
+            <div class="file">PASTE YOUR IMAGE HERE: <input type="file" class="input" id="img"></div>
+
+
+
+          </div>
+
+
+
+
+
+        </div>
+
+        <button class="btn" id="submitbutton" type="submit">CREATE RESUME</button>
+
+
+
+
+
+      </form>
+
+
+    </div>
+
+
+
+  </div>
+  <div class="main" id="my">
+    <div class="partone">
+
+<div>
+<h1 class="name"> <span id="myname"></span></h1>
+<p class="pro"><span id="mypro"></span></p>
+<div class="contact">
+  <div class="location"> 
+    <p><i class="fa-solid fa-phone"></i><span id="mynumber"></span></p>
+  </div>
+  <div class="location">
+    <p><i class="fa-solid fa-message"></i><span id="mymale"></span></p>
+  </div>
+  <div class="location">
+    <P><i class="fa-solid fa-location-dot"></i><span id="mycountry"></span></P>
+  </div>
+
+
+    
+</div>
+
+<h1 class="sum">SUMMARY</h1>
+<div class="line"></div>
+<p class="sump">
+    
+    <span id="myabtpro"></span>
+</p>
+<h1 class="exp">EXPRIANCE</h1>
+<div class="line"></div>
+
+<div class="p3">
+<div><p><span id="mypro"></span></p></div>
+<div> <p> 2022-2024</p></div>
+</div>
+<div>
+<h3 class="ui"><span id="myskillone"></span></h3>
+<P>
+   
+    <span id="myskillone_details"></span>
+</P>
+
+</div>
+
+
+</div>
+<div>
+<h3 class="ui"><span id="myskilltwo"></span></h3>
+<P>
+    
+    <span id="myskilltwo_details"></span>
+    </P>
+
+</div>
+<div>
+    <h3 class="ui"><span id="myskillthree"></span></h3>
+    <P>
+       
+       
+        <span id="myskillthree_details"></span>
+
+        </P>
+    
+    </div>
+
+
+
+
+
+
+    </div>
+    <div class="parttwo">
+<div id="profilephoto"></div>
+
+<h3 class="one">Achievements</h3>
+<div class="two"></div>
+<div>
+
+<div class="three">
+<p><i class="fa-regular fa-star"></i></p>
+<p>
+   
+    <span id="myachione"></span>
+</p>
+
+</div>
+<div class="three">
+    <p><i class="fa-solid fa-laptop"></i></p>
+    <p>
+    
+        <span id="myachitwo"></span>
+       
+        
+    </p>
+    
+        </div>
+        <div class="three">
+            <p><i class="fa-brands fa-js"></i></p>
+            <p>
+                
+                <span id="myachithree"></span>
+               
+                
+            </p>
+            
+                </div>
+
+
+
+       
+                <div><h3 class="one">Skills</h3>
+                    <div class="two"></div></div>
+                    <p class="para">
+                      
+                        <span id="myskillone11"></span>
+                    </p>
+            </div>
+            <div>
+                <div><h3 class="one">Course</h3>
+                    <div class="two"></div></div>
+                    <p class="para2">
+                      
+                    <span id="myskilltwo22"></span>
+                    </p>
+                </div>
+                <div><h3 class="one">PASSIONS</h3>
+                    <div class="two"></div></div>
+                    <p class="para3">
+                      
+                        <span id="mypassion"></span>
+
+
+                    </p>
+            </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

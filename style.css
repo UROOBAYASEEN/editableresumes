@@ -1,0 +1,436 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    color: white;
+  
+    
+}
+.heading{
+margin-bottom: 30px;
+align-items: center;
+
+}
+.mainheader{
+
+color: crimson;
+padding-top: 10px;
+
+}
+.about{
+
+    display: flex;
+}
+ .p1{
+
+
+    padding: 10px;
+    background-color: white;
+    color: crimson;
+    border: solid crimson 1px;
+    display: inline;
+    margin-top: 20px;
+    margin-left: 5px;
+    position: relative;
+    animation-name:  urooba;
+    animation-duration:  5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+}
+@keyframes urooba{
+
+    from{
+        margin-left: 5px;
+
+    }
+    to{
+
+        margin-left: 50%;
+    }
+
+}
+
+.p1:hover{
+
+
+    background-color: crimson;
+    color: white;
+    border:  solid white 2px;
+    box-shadow: 10px 20px 28px white;
+}
+.main{
+    margin-top: 30px;
+}
+.line{
+
+
+    width: 50%;
+    height: 1px;
+    background-color: rgb(252, 252, 252);
+}
+.input{
+
+
+    padding-top: 20px;
+    border: solid crimson 1px;
+    margin-right: 2px;
+    color: crimson;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: crimson;
+    font-size: 17px;
+
+    align-items: center;
+
+  
+    
+}
+.select{
+
+   
+    margin-top: 20px;
+}
+.grid{
+
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 5px;
+
+
+}
+@media(min-width:315px){
+
+    .input{
+        margin-left: 5px;
+    }
+    .textarea{
+        margin-left: 5px;
+    }
+    .grid{
+        grid-template-columns: auto;
+        padding-left: 4px;
+    }
+}
+@media(min-width:760px){
+.grid{
+
+    grid-template-columns: auto auto  ;
+    grid-gap: -2px;
+}
+
+
+.input{
+    margin-left: 20px;
+    
+}
+.textarea{
+    margin-left: 20px;
+}
+#ed{
+    margin-right: 30px;
+}
+.one{
+    margin-right: 100px;
+}
+
+}
+.grid:focus{
+
+    border: solid rgb(6, 124, 6) 1px;
+}
+.textarea{
+
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+   
+    
+    
+    
+}
+.text{
+    margin-bottom: 20px;
+}
+.file{
+
+    margin-left: 5px;
+}
+.btn{
+
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+     border: solid  white  1px;
+     color: crimson;
+
+
+
+}
+.btn:hover{
+
+
+    background-color: crimson;
+    color: white;
+    border: solid white 2px;
+    box-shadow: 10px 20px 28px white;
+
+}
+
+.sumary{
+
+    height: 90px;
+    font-size: large;
+    margin-left: 10px;
+    width: 300px;
+    color: crimson;
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+
+   
+    
+}
+.main{
+
+
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+}
+.partone{
+    width: 70%;
+    background-color: white;
+    height: 1000px;
+    color: black;
+}
+.parttwo{
+
+
+    
+    background-color: #0f3577;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+@media(min-width:320px){
+.partone{
+    width: 70%;
+    padding-left: 30px;
+
+
+}
+
+.parttwo{
+    width: 50%;
+    
+}
+.parttwo div img{
+
+    margin-right: 30px;
+
+}
+
+
+
+}
+.parttwo div img{
+
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left:  28%;
+    margin-right: 100px;
+margin-top: 15px;
+    
+}
+
+.one{
+
+color: white;
+margin-top: 14px;
+padding-left: 5px;
+
+}
+.two{
+
+    background-color: white;
+    width: 70%;
+    height: 2px;
+    margin-left: 5px;
+}
+.three{
+
+    display: flex;
+    color: white;
+}
+.three p{
+
+    padding: 3px;
+}
+.para{
+    color: white;
+    padding: 3px;
+}
+.para2{
+    color: white;
+    padding: 3px;
+}
+.para3{
+    color: white;
+    padding: 3px;
+}
+
+.contact{
+
+    display: flex;
+}
+.name{
+
+    padding-left: 18px;
+    padding-top: 15px;
+}
+.pro{
+    padding-left: 18px;
+    color: #1f5bc2;
+
+}
+
+.location{
+    padding-left: 18px;
+    padding-top: 5px;
+
+}
+.location div p i {
+
+    padding: 3px;
+}
+.sum{
+
+    padding-left: 18px;
+    padding-top: 100px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+.sump{
+
+    padding-top: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.exp{
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-bottom: 3px;
+}
+.p3{
+
+    justify-content: space-between;
+    display: flex;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.ui{
+
+    padding-left: 18px;
+    color: #072355;
+    padding-top: 5px;
+}
+@media(min-width:320px){
+
+.contact{
+    display: inline;
+}
+.partone{
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+}
+@media(min-width:786px){
+.contact{
+    display: flex;
+}
+
+}
+
+
+
+#fearutes ul{
+
+display: inline-flex;
+margin-left: 10px;
+padding: 10px 10px 10px 10px;
+gap: 10px;
+list-style: none;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+background-color: lightgreen;
+border-radius: 20px;
+border: solid black 2px;
+color: white;
+}
+
+#fearutes ul li:hover{
+
+    background-color: green;
+    color: white;
+    padding: 12px;
+
+}
+#fearutes {
+
+
+   position: relative;
+   top: 0;
+
+}
+#funcationality{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    padding: 20px 20px;
+    border: solid black 2px;
+    background-color: black;
+
+}
+#funcationality button{
+
+    border: black;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 6px 6px;
+
+}
+#funcationality button:hover{
+
+    background-color: red;
+
+}
